@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>b69am</artifactId>
+    <artifactId>devb78am</artifactId>
     <version>6.1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Cloud Binary - Sample Spring MVC Application</name>
@@ -119,7 +119,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>devops</warName>
+                        <warName>devtools</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -142,6 +142,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>devops</finalName>
+        <finalName>devtools</finalName>
     </build>
 </project>
