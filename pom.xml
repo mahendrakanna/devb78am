@@ -119,7 +119,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>devtools</warName>
+                        <warName>devb78am</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -142,6 +142,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>devtools</finalName>
+        <finalName>devb78am</finalName>
     </build>
 </project>
