@@ -13,7 +13,8 @@ phases:
       - mvn install
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Nothing to do in the pre_build phase...
+    # echo Build completed on `date`
 artifacts:
   files:
     - target/devb78am.war
