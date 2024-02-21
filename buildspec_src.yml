@@ -18,7 +18,6 @@ phases:
       - ls -lrta
       - ls -lrt $CODEBUILD_SRC_DIR/settings.xml
       - cp -pvr $CODEBUILD_SRC_DIR/settings.xml ~/.m2/settings.xml
-      # - mvn install
       - mvn deploy
       
   post_build:
