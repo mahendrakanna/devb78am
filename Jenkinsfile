@@ -6,7 +6,7 @@ pipeline {
     }
     stages {
         
-        stage('Stage-1 : Clean') { 
+        stage('Stage-0 : Clean') { 
             steps {
                 sh 'mvn sonar:sonar' 
             }
