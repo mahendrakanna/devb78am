@@ -32,10 +32,10 @@ node {
       sh "'${mvnHome}/bin/mvn' deploy"
   }
   stage ('Deliver Artifact To Tomcat') {
-      sh 'curl -u admin:redhat@123 -T target/**.war "http://54.80.77.93:8080/manager/text/deploy?path=/opswork&update=true"'
+      sh 'curl -u admin:redhat@123 -T target/**.war "http://54.81.137.95:8080/manager/text/deploy?path=/opswork&update=true"'
   }
   stage ('Smoke Test') {
-      sh 'curl --retry-delay 10 --retry 5 "http://54.80.77.93:8080/opswork"'
+      sh 'curl --retry-delay 10 --retry 5 "http://54.81.137.95:8080/opswork"'
   }
   
 }
