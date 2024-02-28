@@ -6,11 +6,11 @@ pipeline {
     }
     stages {
         
-        stage('Stage-0 : Clean') { 
-            steps {
-                sh 'mvn sonar:sonar' 
-            }
-        }     
+  //      stage('Stage-0 : Clean') { 
+  //          steps {
+  //              sh 'mvn sonar:sonar' 
+  //          }
+  //      }     
         stage('Stage-1 : Clean') { 
             steps {
                 sh 'mvn clean'
