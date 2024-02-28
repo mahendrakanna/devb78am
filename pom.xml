@@ -15,8 +15,8 @@
 
         <sonar.organization>mahendrakanna1</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url> 
-        <sonar.projectKey>mahendrakanna1_devb78am</sonar.projectKey>
-        <sonar.login>1c5b95759f51277ac3290a9d873a05b5064444ba</sonar.login>
+        <sonar.projectKey>mahendrakanna1_new</sonar.projectKey>
+        <sonar.login>5eeb2ed828d8c8a4f7b2702c1f26e8eb68bbe937</sonar.login>
            
     </properties>
 
