@@ -7,10 +7,11 @@ phases:
   pre_build:
     commands:
       #- echo Code Scanning using SonarQube
+      - echo code build startted
       #- mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=mahendrakanna1_devb78am
       #- mvn verify sonar:sonar
-      - echo Connecting AWS CodeArtifact 
-      - export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain b78am --domain-owner 471112668453 --region us-east-1 --query authorizationToken --output text`      
+      #- echo Connecting AWS CodeArtifact 
+      #- export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain b78am --domain-owner 471112668453 --region us-east-1 --query authorizationToken --output text`      
   build:
     commands:
      - echo Build started on `date`
@@ -18,7 +19,7 @@ phases:
       - ls -lrta
       - ls -lrt $CODEBUILD_SRC_DIR/settings.xml
       - cp -pvr $CODEBUILD_SRC_DIR/settings.xml ~/.m2/settings.xml
-      - mvn deploy
+      - mvn install
       
   post_build:
     commands:
