@@ -8,7 +8,8 @@ node {
  //     sh "'${mvnHome}/bin/mvn' sonar:sonar"
  // }
   stage ('Clean') {
-      sh "'${mvnHome}/bin/mvn' clean"
+      //sh "'${mvnHome}/bin/mvn' clean"
+        sh mvn clean
   }
   stage ('Validate') {
       sh "'${mvnHome}/bin/mvn' validate"
