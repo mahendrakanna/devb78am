@@ -15,8 +15,8 @@
 
         <sonar.organization>mahendrakanna1</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url> 
-        <sonar.projectKey>mahendrakanna1_new</sonar.projectKey>
-        <sonar.login>5eeb2ed828d8c8a4f7b2702c1f26e8eb68bbe937</sonar.login>
+        <sonar.projectKey>mahendrakanna_dev</sonar.projectKey>
+        <sonar.login>feac64e72a8742051b0c9aa0a3e6fc682473895e</sonar.login>
            
     </properties>
 
@@ -112,7 +112,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>devtools</warName>
+                        <warName>devtool</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -135,6 +135,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>devtools</finalName>
+        <finalName>devtool</finalName>
     </build>
 </project>
