@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
     <artifactId>devb78am</artifactId>
-    <version>2.1.0-</version>
+    <version>1.1.0-</version>
     <packaging>war</packaging>
     <name>Cloud Binary - Sample Spring MVC Application</name>
 
